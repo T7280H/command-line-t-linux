@@ -48,5 +48,5 @@ This is a bash shell script named CMD-T, providing a simple command-line interfa
 Run the script from your terminal:
 
 ```bash
-cmd-t  # If in PATH
-./cmd-t.sh # If not in PATH
+CMD-T  # If in PATH
+./CMD-T.sh # If not in PATH
