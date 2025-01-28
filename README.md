@@ -27,14 +27,7 @@ This is a bash shell script named CMD-T, providing a simple command-line interfa
 1.  **Clone the repository (or download the script):**
 
     ```bash
-    git clone <repository_url>
-    ```
-
-    Or if you downloaded the script directly:
-
-    ```bash
-    wget <url_of_the_script> -O cmd-t.sh
-    ```
+    git clone https://github.com/T7280H/command-line-t-linux.git
 
 2.  **Make the script executable:**
 
