@@ -29,24 +29,6 @@ This is a bash shell script named CMD-T, providing a simple command-line interfa
     ```bash
     git clone https://github.com/T7280H/command-line-t-linux.git
 
-2.  **Make the script executable:**
-
-    ```bash
-    chmod +x cmd-t.sh
-    ```
-
-3.  **(Optional) Move the script to a directory in your PATH (e.g., `/usr/local/bin`):**
-
-    ```bash
-    sudo mv cmd-t.sh /usr/local/bin/cmd-t
-    ```
-
-    If you don't move it to your PATH, you'll need to run it from the directory where it's located (e.g., `./cmd-t.sh`).
-
-## Usage
-
-Run the script from your terminal:
-
-```bash
-CMD-T  # If in PATH
-./CMD-T.sh # If not in PATH
+2. **And run the Shell script**
+   ```bash
+   cd command_line_t-linux && bash CMD-T.sh
