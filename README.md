@@ -31,4 +31,4 @@ This is a bash shell script named CMD-T, providing a simple command-line interfa
 
 2. **And run the Shell script**
    ```bash
-   cd command_line_t-linux && bash CMD-T.sh
+   cd command-line-t-linux && bash CMD-T.sh
