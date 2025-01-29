@@ -107,6 +107,24 @@ show_users() {
     echo "Registered users:"
     awk -F: '{print $1}' "$USER_FILE"
 }
+# تابع تایمر شمارشی (شمارش ثانیه)
+timer() {
+    log_command "timer"
+    echo -e "${yellow}Enter the number of seconds for the timer:${reset}"
+    read seconds
+
+    if ! [[ "$seconds" =~ ^[0-9]+$ ]]; then
+        show_error "Invalid input. Please enter a valid number of seconds."
+        return
+    fi
+
+    echo -e "${blue}Starting timer for $seconds seconds...${reset}"
+    for ((i = 0; i < seconds; i++)); do
+        sleep 1
+        echo -n "$i "
+    done
+    echo -e "${green}Timer ended!${reset}"
+}
 
 dir() {
     log_command "dir"
